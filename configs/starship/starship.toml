@@ -1,1 +1,6 @@
 # ~/.config/starship.toml
+
+format = '''
+[┌───────────────────>](bold blue)
+[│](bold red)$directory$rust$package
+[└─>](bold red)[$username[@](bold blue)$hostname](bold green) '''
